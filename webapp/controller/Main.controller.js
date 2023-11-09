@@ -10,6 +10,10 @@ sap.ui.define([
         return Controller.extend("zeppelin.walkthrough.controller.Main", {
             onInit: function () {
 
+            },
+            onShowHello: function () {
+                // show a native JavaScript alert
+                alert("Hello World");
             }
         });
     });
